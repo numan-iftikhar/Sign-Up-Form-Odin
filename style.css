@@ -1,4 +1,21 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+  .img-section {
+    width: auto !important;
+    height: 500px !important;
+  }
+  .form-control {
+    display: block !important;
+  }
+  form {
+    align-items: center !important;
+  }
+  .form-section > div {
+    width: auto !important;
+  }
+}
 
 /* CSS Reset */
 * {
