@@ -9,11 +9,65 @@
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
-    <title>title</title>
+    <title>Sign Up Form</title>
 </head>
 
 <body>
+    <div class="container">
+
+        <section class="img-section">
+            <div class="img-body">
+                <img src="images/logo.png" alt="" class="logo">
+                <span class="logo-text text-white">ODIN</span>
+            </div>
+        </section>
     
+    
+        <section class="form-section">
+            <div>
+                <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. <br> Sign up <em>now</em> to get started.</p>
+                <div>You <em>know</em> you want to.</div>
+            </div>
+
+            <form action="#" method="post">
+                <h3 class="form-title">Let's do this!</h3>
+                <div class="form-control">
+                    <div>
+                        <label for="f-name">first name</label><br>
+                        <input type="text" name="f-name" id="f-name">
+                    </div>
+                    <div>
+                        <label for="l-name">last name</label><br>
+                        <input type="text" name="l-name" id="l-name">
+                    </div>
+                </div>
+
+                <div class="form-control">
+                    <div><label for="email">email</label><br>
+                    <input type="email" name="email" id="email"></div>
+                    
+                    <div><label for="phone">phone number</label><br>
+                    <input type="number" name="phone" id="phone"></div>
+                </div>
+
+                <div class="form-control">
+                    <div><label for="password">password</label><br>
+                    <input type="password" name="password" id="password"></div>
+                    
+                    <div><label for="password">confirm password</label><br>
+                    <input type="password" name="password" id="password"></div>
+                </div>
+            </form>
+
+            <div class="btn-div">
+                <button type="button">Create Account</button>
+                <p>Already have an account? Log in</p>
+            </div>
+
+        </section>
+
+    </div>
+
 </body>
 
 </html>
